@@ -1,11 +1,11 @@
-export const SITE_CONFIG = {
+const SITE_CONFIG = {
   store: {
     name: "Dough Delight Café",
     motto: "Where Taste Greets You!",
     tagline: "Premium Pizzas, Gourmet Burgers, Injected Broast, Artisan Bakery & Cakes",
     description: "Experience handcrafted pizzas, signature smash burgers, injected crispy broast, fresh pastas, and artisan bakery delights in Jahanian.",
-    logo: "/logo.jpeg",
-    mapImage: "/map.png",
+    logo: "./assets/images/logo.jpeg",
+    mapImage: "./assets/images/map.png",
     mapEmbedUrl: "",
     mapAddress: "City Center, Jahanian, 58200",
     timings: "Daily: 11:00 AM - 12:00 AM",
@@ -37,4 +37,9 @@ export const SITE_CONFIG = {
   }
 };
 
-export default SITE_CONFIG;
+if (typeof window !== "undefined") {
+  window.SITE_CONFIG = SITE_CONFIG;
+}
+if (typeof module !== "undefined" && module.exports) {
+  module.exports = { SITE_CONFIG };
+}

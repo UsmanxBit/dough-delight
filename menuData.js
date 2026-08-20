@@ -1,4 +1,4 @@
-export const MENU_DATA = {
+const MENU_DATA = {
   categories: [
     { id: "burgers", label: "Burgers", icon: "burger" },
     { id: "classic-pizza", label: "Classic Pizzas", icon: "pizza" },
@@ -23,7 +23,7 @@ export const MENU_DATA = {
       price: 350,
       description: "Crispy chest fillet, signature chipotle dressing, melted cheese and crisp lettuce in brioche bun",
       spiceLevel: 2,
-      image: "/burgers/chicken/Chrunchy-Chicken_8,50euros.webp",
+      image: "./assets/images/burgers/chicken/Chrunchy-Chicken_8,50euros.webp",
       isPopular: true,
       badge: "Bestseller"
     },
@@ -34,7 +34,7 @@ export const MENU_DATA = {
       price: 399,
       description: "Crispy fried thigh fillet, creamy garlic mayo dressing and iceberg lettuce in toasted bun",
       spiceLevel: 2,
-      image: "/burgers/chicken/Crispy-Ringer_10euros.webp",
+      image: "./assets/images/burgers/chicken/Crispy-Ringer_10euros.webp",
       isPopular: true
     },
     {
@@ -44,7 +44,7 @@ export const MENU_DATA = {
       price: 500,
       description: "Crispy thigh fillet topped with spicy jalapeño sauce, melted cheddar and fresh salad",
       spiceLevel: 3,
-      image: "/burgers/chicken/Mexican-Cracker_11euros.webp",
+      image: "./assets/images/burgers/chicken/Mexican-Cracker_11euros.webp",
       badge: "Spicy"
     },
     {
@@ -54,7 +54,7 @@ export const MENU_DATA = {
       price: 600,
       description: "Double stack: crispy chest fillet & chicken patty with fiery peri peri sauce and double cheese",
       spiceLevel: 3,
-      image: "/burgers/chicken/Foodie-Bomber-13euros.webp",
+      image: "./assets/images/burgers/chicken/Foodie-Bomber-13euros.webp",
       badge: "Chef's Special"
     },
     {
@@ -64,7 +64,7 @@ export const MENU_DATA = {
       price: 599,
       description: "Cheese-filled handcrafted grilled patty with rich signature chipotle sauce",
       spiceLevel: 2,
-      image: "/burgers/beef/Cheesy-Buffalo_10,50euros.webp",
+      image: "./assets/images/burgers/beef/Cheesy-Buffalo_10,50euros.webp",
       isPopular: true
     },
     {
@@ -74,7 +74,7 @@ export const MENU_DATA = {
       price: 499,
       description: "Marinated grilled chicken fillet, sliced red onions, ripe tomatoes, black olives and jalapeño sauce",
       spiceLevel: 2,
-      image: "/burgers/chicken/Loaded-Chrunchy_9euros.webp"
+      image: "./assets/images/burgers/chicken/Loaded-Chrunchy_9euros.webp"
     },
     {
       id: "lava-burger",
@@ -83,7 +83,7 @@ export const MENU_DATA = {
       price: 999,
       description: "Monster double combo: chicken patty & beef patty, smoky BBQ sauce, drenched in hot molten lava cheese sauce",
       spiceLevel: 3,
-      image: "/burgers/beef/Angry-Bull_12euros.webp",
+      image: "./assets/images/burgers/beef/Angry-Bull_12euros.webp",
       badge: "Supreme"
     },
     {
@@ -93,7 +93,7 @@ export const MENU_DATA = {
       price: 900,
       description: "100% prime beef patty, creamy mushroom sauce, grilled onions, tomato slice and cheddar cheese",
       spiceLevel: 1,
-      image: "/burgers/beef/Smookie-Beefy-BBQ_13euros.webp",
+      image: "./assets/images/burgers/beef/Smookie-Beefy-BBQ_13euros.webp",
       isPopular: true
     },
     {
@@ -103,7 +103,7 @@ export const MENU_DATA = {
       price: 800,
       description: "Crispy-edged smashed beef patty, double melted American cheese, diced onions and zesty salsa sauce",
       spiceLevel: 2,
-      image: "/burgers/beef/Blazing-Nacho-Beef_13euros.webp"
+      image: "./assets/images/burgers/beef/Blazing-Nacho-Beef_13euros.webp"
     },
     {
       id: "patty-burger",
@@ -112,7 +112,7 @@ export const MENU_DATA = {
       price: 300,
       description: "Classic seasoned chicken patty, creamy garlic mayo dressing and crisp lettuce",
       spiceLevel: 1,
-      image: "/burgers/chicken/Flip-Chicken-Burger_6euros.webp"
+      image: "./assets/images/burgers/chicken/Flip-Chicken-Burger_6euros.webp"
     },
 
     // ==================== 2. CLASSIC PIZZAS (With Small / Medium / Large Sizes) ====================
@@ -128,7 +128,7 @@ export const MENU_DATA = {
       ],
       description: "Signature Bonfire smoky sauce, spiced grilled chicken, 100% mozzarella, sweet corn & jalapeños",
       spiceLevel: 2,
-      image: "/graphics/tasty burger.svg",
+      image: "./assets/graphics/tasty burger.svg",
       isPopular: true,
       badge: "Bestseller"
     },
@@ -144,7 +144,7 @@ export const MENU_DATA = {
       ],
       description: "Italian pizza sauce, seasoned fajita chicken chunks, bell capsicum, red onions & mozzarella",
       spiceLevel: 2,
-      image: "/graphics/tasty burger.svg",
+      image: "./assets/graphics/tasty burger.svg",
       isPopular: true
     },
     {
@@ -159,7 +159,7 @@ export const MENU_DATA = {
       ],
       description: "Traditional tandoori tikka spiced chicken, diced onions, fresh coriander & extra cheese",
       spiceLevel: 2,
-      image: "/graphics/tasty burger.svg"
+      image: "./assets/graphics/tasty burger.svg"
     },
     {
       id: "chicken-supreme-pizza",
@@ -173,7 +173,7 @@ export const MENU_DATA = {
       ],
       description: "Pizza sauce, mixed seasoned chicken, chicken sausages, sautéed mushrooms, black olives & capsicum",
       spiceLevel: 1,
-      image: "/graphics/tasty burger.svg",
+      image: "./assets/graphics/tasty burger.svg",
       badge: "Popular"
     },
     {
@@ -188,7 +188,7 @@ export const MENU_DATA = {
       ],
       description: "Loaded double layers of premium golden stretchy mozzarella and cheddar cheese",
       spiceLevel: 0,
-      image: "/graphics/tasty burger.svg"
+      image: "./assets/graphics/tasty burger.svg"
     },
     {
       id: "veggie-lover-pizza",
@@ -202,7 +202,7 @@ export const MENU_DATA = {
       ],
       description: "Rich herb sauce, crunchy onions, capsicum, ripe tomatoes, mushrooms, sweet corn & black olives",
       spiceLevel: 0,
-      image: "/graphics/tasty burger.svg"
+      image: "./assets/graphics/tasty burger.svg"
     },
     {
       id: "hot-and-spicy-pizza",
@@ -216,11 +216,11 @@ export const MENU_DATA = {
       ],
       description: "Fiery spicy sauce, fajita chicken, spicy jalapeños, diced tomatoes & chili flakes",
       spiceLevel: 3,
-      image: "/graphics/tasty burger.svg",
+      image: "./assets/graphics/tasty burger.svg",
       badge: "Spicy"
     },
 
-    // ==================== 3. SPECIAL & STUFFED CRUST PIZZAS (Medium & Large Sizes) ====================
+    // ==================== 3. SPECIAL & STUFFED CRUST PIZZAS ====================
     {
       id: "cheesy-bites-pizza",
       name: "Cheesy Bites Pizza",
@@ -232,7 +232,7 @@ export const MENU_DATA = {
       ],
       description: "Pull-apart cheese stuffed bite crust, special signature sauce, grilled chicken, mozzarella & black olives",
       spiceLevel: 1,
-      image: "/graphics/tasty burger.svg",
+      image: "./assets/graphics/tasty burger.svg",
       isPopular: true,
       badge: "Specialty"
     },
@@ -247,7 +247,7 @@ export const MENU_DATA = {
       ],
       description: "Tender chicken kabab baked into the golden crust, peri peri drizzle, fajita chicken & capsicum",
       spiceLevel: 2,
-      image: "/graphics/tasty burger.svg"
+      image: "./assets/graphics/tasty burger.svg"
     },
     {
       id: "crown-crust-pizza",
@@ -260,7 +260,7 @@ export const MENU_DATA = {
       ],
       description: "Regal crown stuffed crust with miniature juicy kababs, fajita chicken, special dressing & olives",
       spiceLevel: 2,
-      image: "/graphics/tasty burger.svg",
+      image: "./assets/graphics/tasty burger.svg",
       badge: "Chef's Special"
     },
     {
@@ -274,7 +274,7 @@ export const MENU_DATA = {
       ],
       description: "Creamy garlic mayo base, smoky tikka chicken, sliced behari kababs, capsicum & mozzarella",
       spiceLevel: 2,
-      image: "/graphics/tasty burger.svg"
+      image: "./assets/graphics/tasty burger.svg"
     },
     {
       id: "dd-special-pizza",
@@ -287,7 +287,7 @@ export const MENU_DATA = {
       ],
       description: "Rich royal Mughlai sauce, premium roasted dry nuts, tender chicken chunks, double cheese & olives",
       spiceLevel: 1,
-      image: "/graphics/tasty burger.svg",
+      image: "./assets/graphics/tasty burger.svg",
       isPopular: true
     },
     {
@@ -301,7 +301,7 @@ export const MENU_DATA = {
       ],
       description: "Cheesy lasagna sauce layered inside the crust, spiced chicken, onions, bell capsicum & mozzarella",
       spiceLevel: 2,
-      image: "/graphics/tasty burger.svg"
+      image: "./assets/graphics/tasty burger.svg"
     },
 
     // ==================== 4. PREMIUM DEEP DISH & PAN PIZZAS ====================
@@ -316,7 +316,7 @@ export const MENU_DATA = {
       ],
       description: "Chicago-style thick buttery crust, loaded special creamy sauce, overflowing fajita chicken & cheese",
       spiceLevel: 2,
-      image: "/graphics/tasty burger.svg",
+      image: "./assets/graphics/tasty burger.svg",
       isPopular: true,
       badge: "Signature"
     },
@@ -331,7 +331,7 @@ export const MENU_DATA = {
       ],
       description: "Golden pan baked thick crust, velvety cream sauce, fajita chicken, capsicum & black olives",
       spiceLevel: 1,
-      image: "/graphics/tasty burger.svg"
+      image: "./assets/graphics/tasty burger.svg"
     },
     {
       id: "juicy-crunch-pizza",
@@ -344,7 +344,7 @@ export const MENU_DATA = {
       ],
       description: "Creamy malai boti sauce, sliced kabab cuts, crispy patty chunks, jalapeños & extra mozzarella",
       spiceLevel: 2,
-      image: "/graphics/tasty burger.svg"
+      image: "./assets/graphics/tasty burger.svg"
     },
     {
       id: "extreme-original-pizza",
@@ -357,7 +357,7 @@ export const MENU_DATA = {
       ],
       description: "Signature DD house sauce, double portion chicken, jalapeños, bell peppers & mozzarella",
       spiceLevel: 2,
-      image: "/graphics/tasty burger.svg"
+      image: "./assets/graphics/tasty burger.svg"
     },
     {
       id: "peri-peri-pizza",
@@ -370,10 +370,10 @@ export const MENU_DATA = {
       ],
       description: "Zesty Peri Peri herb sauce, smoked shredded chicken, capsicum, olives and spicy glaze",
       spiceLevel: 3,
-      image: "/graphics/tasty burger.svg"
+      image: "./assets/graphics/tasty burger.svg"
     },
 
-    // ==================== 5. INJECTED BROAST (Quarter / Half / Full) ====================
+    // ==================== 5. INJECTED BROAST ====================
     {
       id: "injected-broast",
       name: "Injected Crispy Broast",
@@ -386,7 +386,7 @@ export const MENU_DATA = {
       ],
       description: "Juicy flavor-injected crispy golden chicken broast. Served with fresh dinner rolls, golden fries & signature garlic dip",
       spiceLevel: 2,
-      image: "/Fried-Chicken/Chicken-Wings.webp",
+      image: "./assets/images/Fried-Chicken/Chicken-Wings.webp",
       isPopular: true,
       badge: "Bestseller"
     },
@@ -399,7 +399,7 @@ export const MENU_DATA = {
       price: 999,
       description: "8 pieces of crispy battered wings tossed in sticky sweet & spicy honey chili glaze and toasted sesame",
       spiceLevel: 1,
-      image: "/Fried-Chicken/Chicken-Wings.webp",
+      image: "./assets/images/Fried-Chicken/Chicken-Wings.webp",
       isPopular: true,
       badge: "Bestseller"
     },
@@ -410,7 +410,7 @@ export const MENU_DATA = {
       price: 450,
       description: "10 pieces of bite-sized crunchy chicken breast pops seasoned with spicy paprika and served with dip",
       spiceLevel: 2,
-      image: "/Appetizers/Chilli-Cheese-Nuggets.webp"
+      image: "./assets/images/Appetizers/Chilli-Cheese-Nuggets.webp"
     },
     {
       id: "chicken-cheese-sticks",
@@ -419,7 +419,7 @@ export const MENU_DATA = {
       price: 799,
       description: "4 pieces of golden breaded sticks filled with seasoned minced chicken and gooey melted cheese",
       spiceLevel: 1,
-      image: "/Appetizers/Mozarella-Sticks.webp",
+      image: "./assets/images/Appetizers/Mozarella-Sticks.webp",
       isPopular: true
     },
     {
@@ -433,7 +433,7 @@ export const MENU_DATA = {
       ],
       description: "Spicy seasoned crunchy fried chicken wings served with signature garlic dipping sauce",
       spiceLevel: 2,
-      image: "/Fried-Chicken/Chicken-Wings.webp"
+      image: "./assets/images/Fried-Chicken/Chicken-Wings.webp"
     },
     {
       id: "chicken-nuggets",
@@ -446,7 +446,7 @@ export const MENU_DATA = {
       ],
       description: "Crispy golden fried chicken nuggets served with ketchup and dip sauce",
       spiceLevel: 0,
-      image: "/Appetizers/Chilli-Cheese-Nuggets.webp"
+      image: "./assets/images/Appetizers/Chilli-Cheese-Nuggets.webp"
     },
 
     // ==================== 7. FRIES & DIPS ====================
@@ -457,7 +457,7 @@ export const MENU_DATA = {
       price: 700,
       description: "Crispy fries baked under pizza sauce, grilled chicken tikka, black olives, jalapeños & melted mozzarella",
       spiceLevel: 2,
-      image: "/Appetizers/Loaded-Pommes.webp",
+      image: "./assets/images/Appetizers/Loaded-Pommes.webp",
       isPopular: true,
       badge: "Favorite"
     },
@@ -468,7 +468,7 @@ export const MENU_DATA = {
       price: 650,
       description: "Golden fries smothered with melted cheddar cheese sauce, chicken chunks, jalapeños & herb dusting",
       spiceLevel: 2,
-      image: "/Appetizers/Loaded-Pommes.webp",
+      image: "./assets/images/Appetizers/Loaded-Pommes.webp",
       isPopular: true
     },
     {
@@ -482,7 +482,7 @@ export const MENU_DATA = {
       ],
       description: "Crisp golden potato fries lightly seasoned with sea salt",
       spiceLevel: 0,
-      image: "/Appetizers/Pommes_3,5euros.webp"
+      image: "./assets/images/Appetizers/Pommes_3,5euros.webp"
     },
     {
       id: "masala-fries",
@@ -491,7 +491,7 @@ export const MENU_DATA = {
       price: 399,
       description: "Crispy fries tossed with authentic chatpata spicy masala blend",
       spiceLevel: 2,
-      image: "/Appetizers/Pommes_3,5euros.webp"
+      image: "./assets/images/Appetizers/Pommes_3,5euros.webp"
     },
     {
       id: "dip-sauce-extra",
@@ -499,7 +499,7 @@ export const MENU_DATA = {
       category: "fries",
       price: 79,
       description: "Choice of Garlic Mayo, Chipotle, BBQ, Peri Peri or Tangy Cheese Dip",
-      image: "/graphics/dips.svg"
+      image: "./assets/graphics/dips.svg"
     },
 
     // ==================== 8. WRAPS & ROLLS ====================
@@ -510,7 +510,7 @@ export const MENU_DATA = {
       price: 249,
       description: "Toasted pita wrap packed with spiced shredded chicken, pickles and garlic tahini dressing",
       spiceLevel: 1,
-      image: "/graphics/tasty burger.svg",
+      image: "./assets/graphics/tasty burger.svg",
       isPopular: true
     },
     {
@@ -520,7 +520,7 @@ export const MENU_DATA = {
       price: 349,
       description: "Golden zinger chicken strip wrapped in warm tortilla with spicy mayo and fresh iceberg",
       spiceLevel: 2,
-      image: "/graphics/tasty burger.svg"
+      image: "./assets/graphics/tasty burger.svg"
     },
     {
       id: "zinger-paratha-roll",
@@ -529,7 +529,7 @@ export const MENU_DATA = {
       price: 400,
       description: "Crispy paratha stuffed with crunchy zinger fillet, sliced onions and garlic dip",
       spiceLevel: 2,
-      image: "/graphics/tasty burger.svg",
+      image: "./assets/graphics/tasty burger.svg",
       isPopular: true
     },
     {
@@ -539,7 +539,7 @@ export const MENU_DATA = {
       price: 450,
       description: "Donner style pita wrap filled with pizza chicken, herbs, cheese and house dressing",
       spiceLevel: 2,
-      image: "/graphics/tasty burger.svg"
+      image: "./assets/graphics/tasty burger.svg"
     },
     {
       id: "behari-roll",
@@ -548,7 +548,7 @@ export const MENU_DATA = {
       price: 549,
       description: "Smoky behari kabab, roasted onions, chatni dressing wrapped in flaky flatbread",
       spiceLevel: 2,
-      image: "/graphics/tasty burger.svg"
+      image: "./assets/graphics/tasty burger.svg"
     },
     {
       id: "tortilla-wrap",
@@ -557,7 +557,7 @@ export const MENU_DATA = {
       price: 550,
       description: "Soft Mexican tortilla wrapped around seasoned grilled chicken, sweet corn and chipotle sauce",
       spiceLevel: 2,
-      image: "/graphics/tasty burger.svg"
+      image: "./assets/graphics/tasty burger.svg"
     },
     {
       id: "loaded-shapata-roll",
@@ -566,7 +566,7 @@ export const MENU_DATA = {
       price: 550,
       description: "Chef's loaded special spiced roll packed with chicken chunks, cheese and secret sauce",
       spiceLevel: 3,
-      image: "/graphics/tasty burger.svg"
+      image: "./assets/graphics/tasty burger.svg"
     },
     {
       id: "pizza-shawarma",
@@ -575,7 +575,7 @@ export const MENU_DATA = {
       price: 500,
       description: "Fusion wrap combining tender shawarma meat with pizza sauce, oregano and mozzarella",
       spiceLevel: 2,
-      image: "/graphics/tasty burger.svg"
+      image: "./assets/graphics/tasty burger.svg"
     },
 
     // ==================== 9. SANDWICHES ====================
@@ -586,7 +586,7 @@ export const MENU_DATA = {
       price: 549,
       description: "Triple-decker sandwich with shredded chicken, fried egg, cheddar slice, cucumber & tomato. Served with fries",
       spiceLevel: 1,
-      image: "/graphics/tasty burger.svg",
+      image: "./assets/graphics/tasty burger.svg",
       isPopular: true
     },
     {
@@ -596,7 +596,7 @@ export const MENU_DATA = {
       price: 549,
       description: "Marinated juicy grilled chicken breast, herb mayo, crisp lettuce in toasted artisan bread",
       spiceLevel: 1,
-      image: "/graphics/tasty burger.svg"
+      image: "./assets/graphics/tasty burger.svg"
     },
     {
       id: "tikka-sandwich",
@@ -605,7 +605,7 @@ export const MENU_DATA = {
       price: 549,
       description: "Smoky tandoori tikka spiced chicken, mint mayo dressing, onions in toasted bread",
       spiceLevel: 2,
-      image: "/graphics/tasty burger.svg"
+      image: "./assets/graphics/tasty burger.svg"
     },
     {
       id: "mexican-sandwich",
@@ -614,7 +614,7 @@ export const MENU_DATA = {
       price: 699,
       description: "Spicy Mexican seasoned chicken, sliced jalapeños, salsa sauce, double cheese in toasted bread",
       spiceLevel: 3,
-      image: "/graphics/tasty burger.svg",
+      image: "./assets/graphics/tasty burger.svg",
       badge: "Spicy"
     },
 
@@ -630,7 +630,7 @@ export const MENU_DATA = {
       ],
       description: "Macaroni pasta enveloped in velvety rich cheddar and mozzarella cheese sauce, baked golden",
       spiceLevel: 0,
-      image: "/graphics/tasty burger.svg",
+      image: "./assets/graphics/tasty burger.svg",
       isPopular: true
     },
     {
@@ -640,7 +640,7 @@ export const MENU_DATA = {
       price: 800,
       description: "Penne pasta in rich garlic parmesan cream sauce, topped with sliced golden crispy chicken breast fillet & baked cheese (Full)",
       spiceLevel: 1,
-      image: "/graphics/tasty burger.svg",
+      image: "./assets/graphics/tasty burger.svg",
       isPopular: true,
       badge: "Bestseller"
     },
@@ -651,10 +651,10 @@ export const MENU_DATA = {
       price: 750,
       description: "Classic Italian fettuccine tossed in rich butter garlic cream sauce with grilled herb chicken & mushrooms (Full)",
       spiceLevel: 0,
-      image: "/graphics/tasty burger.svg"
+      image: "./assets/graphics/tasty burger.svg"
     },
 
-    // ==================== 11. CHINESE CUISINE & SOUPS (Single / Full Sizes) ====================
+    // ==================== 11. CHINESE CUISINE & SOUPS ====================
     {
       id: "chicken-corn-soup",
       name: "Chicken Corn Soup",
@@ -666,7 +666,7 @@ export const MENU_DATA = {
       ],
       description: "Classic thick Chinese soup with shredded chicken, sweet corn kernels and egg ribbon drops",
       spiceLevel: 0,
-      image: "/graphics/tasty burger.svg",
+      image: "./assets/graphics/tasty burger.svg",
       isPopular: true
     },
     {
@@ -680,7 +680,7 @@ export const MENU_DATA = {
       ],
       description: "Hearty traditional spicy and tangy soup with chicken, mushrooms and egg ribbons",
       spiceLevel: 2,
-      image: "/graphics/tasty burger.svg"
+      image: "./assets/graphics/tasty burger.svg"
     },
     {
       id: "chicken-fried-rice",
@@ -689,7 +689,7 @@ export const MENU_DATA = {
       price: 749,
       description: "Wok-fried premium fragrant basmati rice tossed with shredded chicken, eggs, scallions & seasonal vegetables (Full)",
       spiceLevel: 1,
-      image: "/graphics/tasty burger.svg",
+      image: "./assets/graphics/tasty burger.svg",
       isPopular: true
     },
     {
@@ -699,7 +699,7 @@ export const MENU_DATA = {
       price: 649,
       description: "Wok-tossed seasoned rice with fluffy scrambled eggs, spring onions and soya glaze (Full)",
       spiceLevel: 0,
-      image: "/graphics/tasty burger.svg"
+      image: "./assets/graphics/tasty burger.svg"
     },
     {
       id: "chicken-manchurian",
@@ -708,7 +708,7 @@ export const MENU_DATA = {
       price: 649,
       description: "Crispy chicken cubes simmered in authentic sweet, savory & spicy red Manchurian gravy (Full)",
       spiceLevel: 2,
-      image: "/graphics/tasty burger.svg",
+      image: "./assets/graphics/tasty burger.svg",
       isPopular: true
     },
     {
@@ -718,7 +718,7 @@ export const MENU_DATA = {
       price: 649,
       description: "Tender sliced chicken stir-fried with crushed black peppercorns, onions & bell peppers in rich dark sauce (Full)",
       spiceLevel: 2,
-      image: "/graphics/tasty burger.svg"
+      image: "./assets/graphics/tasty burger.svg"
     },
     {
       id: "chicken-chilli-dry",
@@ -727,7 +727,7 @@ export const MENU_DATA = {
       price: 849,
       description: "Crisp battered chicken slices wok-tossed with green chilies, ginger slivers and aromatic soya glaze (Full)",
       spiceLevel: 3,
-      image: "/graphics/tasty burger.svg",
+      image: "./assets/graphics/tasty burger.svg",
       badge: "Chef's Special"
     },
 
@@ -739,7 +739,7 @@ export const MENU_DATA = {
       price: 599,
       description: "Fresh medley of seasonal fruits, cocktail mix and sweet creamy dressing",
       spiceLevel: 0,
-      image: "/graphics/tasty burger.svg",
+      image: "./assets/graphics/tasty burger.svg",
       isPopular: true
     },
     {
@@ -749,7 +749,7 @@ export const MENU_DATA = {
       price: 500,
       description: "Chilled elbow macaroni tossed with diced vegetables in sweet herb mayonnaise dressing",
       spiceLevel: 0,
-      image: "/graphics/tasty burger.svg"
+      image: "./assets/graphics/tasty burger.svg"
     },
     {
       id: "russian-salad",
@@ -758,7 +758,7 @@ export const MENU_DATA = {
       price: 450,
       description: "Diced potatoes, green peas, carrots, apples and pineapple in velvety dressing",
       spiceLevel: 0,
-      image: "/graphics/tasty burger.svg"
+      image: "./assets/graphics/tasty burger.svg"
     },
     {
       id: "chicken-pineapple-salad",
@@ -767,7 +767,7 @@ export const MENU_DATA = {
       price: 800,
       description: "Shredded roast chicken, sweet juicy pineapple chunks and iceberg tossed in light cream",
       spiceLevel: 0,
-      image: "/graphics/tasty burger.svg"
+      image: "./assets/graphics/tasty burger.svg"
     },
 
     // ==================== 13. DRINKS & COFFEE ====================
@@ -777,7 +777,7 @@ export const MENU_DATA = {
       category: "drinks",
       price: 249,
       description: "Rich espresso shot with velvety steamed milk foam and cocoa dusting",
-      image: "/graphics/cold drinks sprite cola fanta.svg",
+      image: "./assets/graphics/cold drinks sprite cola fanta.svg",
       isPopular: true
     },
     {
@@ -786,7 +786,7 @@ export const MENU_DATA = {
       category: "drinks",
       price: 599,
       description: "Smooth espresso blended with Madagascar vanilla syrup and steamed milk",
-      image: "/graphics/cold drinks sprite cola fanta.svg"
+      image: "./assets/graphics/cold drinks sprite cola fanta.svg"
     },
     {
       id: "special-tea",
@@ -794,7 +794,7 @@ export const MENU_DATA = {
       category: "drinks",
       price: 99,
       description: "Traditional aromatic boiled rich milk tea infused with cardamom",
-      image: "/graphics/cold drinks sprite cola fanta.svg",
+      image: "./assets/graphics/cold drinks sprite cola fanta.svg",
       isPopular: true
     },
     {
@@ -809,7 +809,7 @@ export const MENU_DATA = {
         { name: "1.5 Liter", price: 220 }
       ],
       description: "Choice of Coca-Cola, Sprite, Fanta, or Diet Coke in chilled bottles/cans",
-      image: "/graphics/cold drinks sprite cola fanta.svg"
+      image: "./assets/graphics/cold drinks sprite cola fanta.svg"
     },
     {
       id: "mineral-water",
@@ -821,7 +821,7 @@ export const MENU_DATA = {
         { name: "Large", price: 120 }
       ],
       description: "Pure chilled natural mineral water",
-      image: "/graphics/water.svg"
+      image: "./assets/graphics/water.svg"
     },
     {
       id: "fresh-lime-soda",
@@ -829,13 +829,13 @@ export const MENU_DATA = {
       category: "drinks",
       price: 150,
       description: "Refreshing fizzy soda with squeezed fresh lime and mint pinch",
-      image: "/graphics/cold drinks sprite cola fanta.svg"
+      image: "./assets/graphics/cold drinks sprite cola fanta.svg"
     }
   ]
 };
 
 // ==================== DEDICATED BAKERY, CAKES & DESSERTS MENU ====================
-export const BAKERY_DATA = {
+const BAKERY_DATA = {
   categories: [
     { id: "all-sweets", label: "All Bakery Delights" },
     { id: "exclusive-cakes", label: "Exclusive Cakes (Per Pound)" },
@@ -855,7 +855,7 @@ export const BAKERY_DATA = {
         { name: "2 Pound", price: 2400 }
       ],
       description: "Artisan celebration cake layered with premium Lotus Biscoff spread, biscuit crunch and butter cream",
-      image: "/graphics/tasty burger.svg",
+      image: "./assets/graphics/tasty burger.svg",
       isPopular: true,
       badge: "Bestseller"
     },
@@ -869,7 +869,7 @@ export const BAKERY_DATA = {
         { name: "2 Pound", price: 2400 }
       ],
       description: "Rich velvety moist chocolate sponge smothered in Cadbury chocolate ganache",
-      image: "/graphics/tasty burger.svg",
+      image: "./assets/graphics/tasty burger.svg",
       isPopular: true
     },
     {
@@ -882,7 +882,7 @@ export const BAKERY_DATA = {
         { name: "2 Pound", price: 2400 }
       ],
       description: "Chocolate layered cake surrounded with crunchy Kit Kat wafer bars and chocolate drops",
-      image: "/graphics/tasty burger.svg"
+      image: "./assets/graphics/tasty burger.svg"
     },
     {
       id: "black-forest-cake",
@@ -894,7 +894,7 @@ export const BAKERY_DATA = {
         { name: "2 Pound", price: 2400 }
       ],
       description: "Traditional chocolate sponge layered with fresh whipped cream, dark cherries & chocolate curls",
-      image: "/graphics/tasty burger.svg"
+      image: "./assets/graphics/tasty burger.svg"
     },
     {
       id: "pineapple-cake",
@@ -906,7 +906,7 @@ export const BAKERY_DATA = {
         { name: "2 Pound", price: 2400 }
       ],
       description: "Light vanilla sponge layered with juicy pineapple chunks and vanilla whipped cream",
-      image: "/graphics/tasty burger.svg"
+      image: "./assets/graphics/tasty burger.svg"
     },
     {
       id: "carrot-cake",
@@ -918,7 +918,7 @@ export const BAKERY_DATA = {
         { name: "2 Pound", price: 2400 }
       ],
       description: "Spiced carrot sponge with walnuts, frosted with silky cream cheese icing",
-      image: "/graphics/tasty burger.svg"
+      image: "./assets/graphics/tasty burger.svg"
     },
     {
       id: "fararow-cake",
@@ -930,7 +930,7 @@ export const BAKERY_DATA = {
         { name: "2 Pound", price: 2400 }
       ],
       description: "Nutella hazelnut infused chocolate cake topped with golden Ferrero Rocher truffles",
-      image: "/graphics/tasty burger.svg",
+      image: "./assets/graphics/tasty burger.svg",
       badge: "Premium"
     },
 
@@ -941,7 +941,7 @@ export const BAKERY_DATA = {
       category: "brownies-pastries",
       price: 250,
       description: "Decadent fudgy rich chocolate brownie drizzled with warm Nutella glaze",
-      image: "/graphics/tasty burger.svg",
+      image: "./assets/graphics/tasty burger.svg",
       isPopular: true,
       badge: "Popular"
     },
@@ -951,7 +951,7 @@ export const BAKERY_DATA = {
       category: "brownies-pastries",
       price: 200,
       description: "Rich dark chocolate brownie loaded with chocolate chunks",
-      image: "/graphics/tasty burger.svg"
+      image: "./assets/graphics/tasty burger.svg"
     },
     {
       id: "plain-brownie",
@@ -959,7 +959,7 @@ export const BAKERY_DATA = {
       category: "brownies-pastries",
       price: 150,
       description: "Traditional moist chocolate brownie with a shiny crinkly top",
-      image: "/graphics/tasty burger.svg"
+      image: "./assets/graphics/tasty burger.svg"
     },
     {
       id: "mud-cake-pastry",
@@ -967,7 +967,7 @@ export const BAKERY_DATA = {
       category: "brownies-pastries",
       price: 250,
       description: "Dense dark chocolate mud cake pastry layered with rich ganache",
-      image: "/graphics/tasty burger.svg",
+      image: "./assets/graphics/tasty burger.svg",
       isPopular: true
     },
     {
@@ -976,7 +976,7 @@ export const BAKERY_DATA = {
       category: "brownies-pastries",
       price: 250,
       description: "Layered sponge pastry infused with Lotus Biscoff butter and cookie crumbs",
-      image: "/graphics/tasty burger.svg"
+      image: "./assets/graphics/tasty burger.svg"
     },
 
     // --- Cupcakes & Donuts ---
@@ -986,7 +986,7 @@ export const BAKERY_DATA = {
       category: "cupcakes-donuts",
       price: 150,
       description: "Fluffy vanilla sponge cupcake topped with creamy Lotus Biscoff swirl and biscuit crumble",
-      image: "/graphics/tasty burger.svg",
+      image: "./assets/graphics/tasty burger.svg",
       isPopular: true
     },
     {
@@ -995,7 +995,7 @@ export const BAKERY_DATA = {
       category: "cupcakes-donuts",
       price: 120,
       description: "Rich crimson cocoa sponge topped with silky cream cheese frosting",
-      image: "/graphics/tasty burger.svg"
+      image: "./assets/graphics/tasty burger.svg"
     },
     {
       id: "chocolate-cupcake",
@@ -1003,7 +1003,7 @@ export const BAKERY_DATA = {
       category: "cupcakes-donuts",
       price: 120,
       description: "Moist chocolate cupcake with whipped chocolate buttercream swirl",
-      image: "/graphics/tasty burger.svg"
+      image: "./assets/graphics/tasty burger.svg"
     },
     {
       id: "plain-cupcake",
@@ -1011,7 +1011,7 @@ export const BAKERY_DATA = {
       category: "cupcakes-donuts",
       price: 100,
       description: "Golden vanilla cupcake with buttercream topping",
-      image: "/graphics/tasty burger.svg"
+      image: "./assets/graphics/tasty burger.svg"
     },
     {
       id: "oreo-stuff-donut",
@@ -1019,7 +1019,7 @@ export const BAKERY_DATA = {
       category: "cupcakes-donuts",
       price: 150,
       description: "Fluffy glazed donut stuffed with Oreo cream and coated with crushed cookies",
-      image: "/graphics/tasty burger.svg",
+      image: "./assets/graphics/tasty burger.svg",
       isPopular: true
     },
     {
@@ -1028,7 +1028,7 @@ export const BAKERY_DATA = {
       category: "cupcakes-donuts",
       price: 150,
       description: "Soft golden donut filled with molten Lotus spread and caramelized glaze",
-      image: "/graphics/tasty burger.svg"
+      image: "./assets/graphics/tasty burger.svg"
     },
     {
       id: "plain-donut",
@@ -1036,7 +1036,7 @@ export const BAKERY_DATA = {
       category: "cupcakes-donuts",
       price: 100,
       description: "Light and airy traditional yeast donut dipped in sweet glaze",
-      image: "/graphics/tasty burger.svg"
+      image: "./assets/graphics/tasty burger.svg"
     },
 
     // --- Warm Desserts, Kunafa & Specialty Cups ---
@@ -1046,7 +1046,7 @@ export const BAKERY_DATA = {
       category: "warm-desserts",
       price: 450,
       description: "Golden spun pastry threads baked with sweet mozzarella cheese and scented sugar syrup",
-      image: "/graphics/tasty burger.svg",
+      image: "./assets/graphics/tasty burger.svg",
       isPopular: true,
       badge: "Signature"
     },
@@ -1056,7 +1056,7 @@ export const BAKERY_DATA = {
       category: "warm-desserts",
       price: 300,
       description: "Warm dark chocolate sponge bursting with a rich flowing liquid chocolate core",
-      image: "/graphics/tasty burger.svg",
+      image: "./assets/graphics/tasty burger.svg",
       isPopular: true,
       badge: "Bestseller"
     },
@@ -1066,7 +1066,7 @@ export const BAKERY_DATA = {
       category: "warm-desserts",
       price: 300,
       description: "Freshly baked cast-iron chocolate chip cookie with gooey melted chocolate",
-      image: "/graphics/tasty burger.svg"
+      image: "./assets/graphics/tasty burger.svg"
     },
     {
       id: "three-milk-cup",
@@ -1074,7 +1074,7 @@ export const BAKERY_DATA = {
       category: "warm-desserts",
       price: 200,
       description: "Ultra-moist sponge soaked in three milks and topped with whipped chantilly cream",
-      image: "/graphics/tasty burger.svg",
+      image: "./assets/graphics/tasty burger.svg",
       isPopular: true
     },
     {
@@ -1083,7 +1083,7 @@ export const BAKERY_DATA = {
       category: "warm-desserts",
       price: 250,
       description: "Layered ice cream sundae cup with chocolate fudge, caramel and roasted nuts",
-      image: "/graphics/tasty burger.svg"
+      image: "./assets/graphics/tasty burger.svg"
     },
     {
       id: "banana-bread",
@@ -1091,9 +1091,15 @@ export const BAKERY_DATA = {
       category: "warm-desserts",
       price: 100,
       description: "Moist artisan banana loaf slice made with ripe bananas and cinnamon",
-      image: "/graphics/tasty burger.svg"
+      image: "./assets/graphics/tasty burger.svg"
     }
   ]
 };
 
-export default MENU_DATA;
+if (typeof window !== "undefined") {
+  window.MENU_DATA = MENU_DATA;
+  window.BAKERY_DATA = BAKERY_DATA;
+}
+if (typeof module !== "undefined" && module.exports) {
+  module.exports = { MENU_DATA, BAKERY_DATA };
+}
